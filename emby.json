@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "emby.aikan.la",
+        "emby.aikan.cloud",
+        "aikan.la",
+        "aikan.cloud"
+      ],
+      "ip_cidr": [
+        45.196.236.212/32"
+      ]
+    }
+  ]
+}
