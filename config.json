@@ -72,25 +72,23 @@
   "inbounds": [
     {
       "type": "tun",
-      "address": [
-        "172.19.0.1/30",
-        "fdfe:dcba:9876::1/126"
-      ],
+      "address": "172.19.0.1/30",
+      "mtu": 9000,
       "auto_route": true,
-      "stack": "mixed",
-      "sniff": true,
+      "auto_redirect": true,
       "strict_route": true,
+      "stack": "system",
       "platform": {
         "http_proxy": {
           "enabled": true,
-          "server": "0.0.0.0",
+          "server": "127.0.0.1",
           "server_port": 2080
         }
       }
     },
     {
       "type": "mixed",
-      "listen": "0.0.0.0",
+      "listen": "127.0.0.1",
       "listen_port": 2080,
       "sniff": true,
       "users": []
