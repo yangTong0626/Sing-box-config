@@ -395,7 +395,7 @@
         "type": "remote",
         "tag": "emby",
         "format": "source",
-        "url": "https://raw.githubusercontent.com/yangTong0626/Sing-box-config/refs/heads/main/emby.json?token=GHSAT0AAAAAAC4PYTN32F4TWU25MCEUVGQGZ5RISOA",
+        "url": "https://raw.githubusercontent.com/yangTong0626/Sing-box-config/refs/heads/main/emby.json",
         "download_detour": "全球直连"
       }
     ]
