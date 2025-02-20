@@ -30,6 +30,10 @@
           "address_strategy": "ipv4_only",
           "strategy": "ipv4_only",
           "detour": "🚀 节点选择"
+        },
+        {
+          "tag": "dns_block",
+          "address": "rcode://refused"
         }
       ],
       "rules": [
@@ -54,6 +58,13 @@
         {
           "rule_set": "geosite-geolocation-!cn",
           "server": "dns_proxy"
+        },
+        {
+          "rule_set": [
+            "geosite-ad",
+            "geoip-ad"
+          ],
+          "server": "dns_block"
         }
       ],
       "final": "dns_proxy",
@@ -487,7 +498,21 @@
             "format": "source",
             "url": "https://raw.githubusercontent.com/yangTong0626/Sing-box-config/refs/heads/main/emby.json",
             "download_detour": "🚀 节点选择"
-          },
+        },
+        {
+            "tag": "geoip-ad",
+            "type": "remote",
+            "format": "source",
+            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/ad.srs",
+            "download_detour": "🚀 节点选择"
+        },
+        {
+            "tag": "geosite-ad",
+            "type": "remote",
+            "format": "source",
+            "url": "https://raw.githubusercontent.com/KaringX/karing-ruleset/refs/heads/sing/geo/geosite/ads.srs",
+            "download_detour": "🚀 节点选择"
+        },
         {
           "tag": "geoip-cn",
           "type": "remote",
