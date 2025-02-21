@@ -502,14 +502,14 @@
         {
             "tag": "geoip-ad",
             "type": "remote",
-            "format": "source",
+            "format": "binary",
             "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/ad.srs",
             "download_detour": "🚀 节点选择"
         },
         {
             "tag": "geosite-ad",
             "type": "remote",
-            "format": "source",
+            "format": "binary",
             "url": "https://raw.githubusercontent.com/KaringX/karing-ruleset/refs/heads/sing/geo/geosite/ads.srs",
             "download_detour": "🚀 节点选择"
         },
