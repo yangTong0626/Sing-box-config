@@ -324,10 +324,6 @@
       {
         "tag": "🎯 全球直连",
         "type": "direct"
-      },
-      {
-        "type": "block",
-        "tag": "block"
       }
     ],
     "route": {
@@ -406,7 +402,7 @@
         },
         {
             "rule_set": "ads",
-            "outbound": "block"
+            "action": "reject"
         },
         {
           "rule_set": "geosite-geolocation-!cn",
