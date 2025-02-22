@@ -60,10 +60,7 @@
           "server": "dns_proxy"
         },
         {
-          "rule_set": [
-            "geosite-ad",
-            "geoip-ad"
-          ],
+          "rule_set": "ads",
           "server": "dns_block"
         }
       ],
