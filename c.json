@@ -327,6 +327,10 @@
       {
         "tag": "🎯 全球直连",
         "type": "direct"
+      },
+      {
+        "type": "block",
+        "tag": "block"
       }
     ],
     "route": {
@@ -392,8 +396,20 @@
           "outbound": "🪟 Microsoft"
         },
         {
-          "rule_set": "emby",
-          "outbound": "emby"
+            "domain": [
+                "emby.aikan.la",
+                "emby.aikan.cloud",
+                "aikan.la",
+                "aikan.cloud"
+            ],
+            "ip_cidr": [
+                "45.196.236.212/32"
+            ],
+            "outbound": "emby"
+        },
+        {
+            "rule_set": "ads",
+            "outbound": "block"
         },
         {
           "rule_set": "geosite-geolocation-!cn",
@@ -486,32 +502,18 @@
           "download_detour": "🚀 节点选择"
         },
         {
+            "tag":"ads",
+            "type": "remote",
+            "format": "source",
+            "url": "https://raw.githubusercontent.com/yangTong0626/Sing-box-config/refs/heads/main/ad.json",
+            "download_detour":"🚀 节点选择"
+        },
+        {
           "tag": "geoip-apple",
           "type": "remote",
           "format": "binary",
           "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs",
           "download_detour": "🚀 节点选择"
-        },
-        {
-            "tag": "emby",
-            "type": "remote",
-            "format": "source",
-            "url": "https://raw.githubusercontent.com/yangTong0626/Sing-box-config/refs/heads/main/emby.json",
-            "download_detour": "🚀 节点选择"
-        },
-        {
-            "tag": "geoip-ad",
-            "type": "remote",
-            "format": "binary",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/ad.srs",
-            "download_detour": "🚀 节点选择"
-        },
-        {
-            "tag": "geosite-ad",
-            "type": "remote",
-            "format": "binary",
-            "url": "https://raw.githubusercontent.com/KaringX/karing-ruleset/refs/heads/sing/geo/geosite/ads.srs",
-            "download_detour": "🚀 节点选择"
         },
         {
           "tag": "geoip-cn",
