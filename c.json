@@ -469,19 +469,19 @@
           "download_detour": "🚀 节点选择"
         },
         {
-        "type": "remote",
-        "tag": "WeChat",
-        "format": "source",
-        "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/WeChat.json",
-        "download_detour": "🚀 节点选择"
-      },
-      {
-        "type": "remote",
-        "tag": "Bilibili",
-        "format": "source",
-        "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Bilibili.json",
-        "download_detour": "🚀 节点选择"
-      }，
+          "type": "remote",
+          "tag": "WeChat",
+          "format": "source",
+          "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/WeChat.json",
+          "download_detour": "🚀 节点选择"
+        },
+        {
+          "type": "remote",
+          "tag": "Bilibili",
+          "format": "source",
+          "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Bilibili.json",
+          "download_detour": "🚀 节点选择"
+        }，
         {
           "tag": "geosite-cn",
           "type": "remote",
