@@ -481,7 +481,7 @@
           "format": "source",
           "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Bilibili.json",
           "download_detour": "🚀 节点选择"
-        }，
+        },
         {
           "tag": "geosite-cn",
           "type": "remote",
