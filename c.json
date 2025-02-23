@@ -411,7 +411,9 @@
         {
           "rule_set": [
             "geoip-cn",
-            "geosite-cn"
+            "geosite-cn",
+            "WeChat",
+            "Bilibili"
           ],
           "outbound": "🎯 全球直连"
         }
@@ -466,6 +468,20 @@
           "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs",
           "download_detour": "🚀 节点选择"
         },
+        {
+        "type": "remote",
+        "tag": "WeChat",
+        "format": "source",
+        "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/WeChat.json",
+        "download_detour": "🚀 节点选择"
+      },
+      {
+        "type": "remote",
+        "tag": "Bilibili",
+        "format": "source",
+        "url": "https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Bilibili.json",
+        "download_detour": "🚀 节点选择"
+      }，
         {
           "tag": "geosite-cn",
           "type": "remote",
