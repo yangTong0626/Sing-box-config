@@ -39,10 +39,6 @@
           "disable_cache": true
         },
         {
-          "rule_set": "ads",
-          "action": "reject"
-        },
-        {
           "clash_mode": "Direct",
           "server": "dns_direct"
         },
@@ -246,7 +242,7 @@
             ]
           }
         ],
-        "url": "http://www.qualcomm.cn/generate_204",
+        "url": "http://www.apple.com/library/test/success.html",
         "interval": "10m",
         "tolerance": 50
       },
@@ -270,7 +266,7 @@
             ]
           }
         ],
-        "url": "http://www.qualcomm.cn/generate_204",
+        "url": "http://www.apple.com/library/test/success.html",
         "interval": "10m",
         "tolerance": 50
       },
@@ -288,7 +284,7 @@
             ]
           }
         ],
-        "url": "http://www.qualcomm.cn/generate_204",
+        "url": "http://www.apple.com/library/test/success.html",
         "interval": "10m",
         "tolerance": 50
       },
@@ -306,7 +302,7 @@
             ]
           }
         ],
-        "url": "http://www.qualcomm.cn/generate_204",
+        "url": "http://www.apple.com/library/test/success.html",
         "interval": "10m",
         "tolerance": 50
       },
@@ -332,6 +328,10 @@
         {
           "protocol": "dns",
           "action": "hijack-dns"
+        },
+        {
+          "rule_set": "ads",
+          "action": "reject"
         },
         {
           "clash_mode": "Direct",
