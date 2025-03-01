@@ -222,7 +222,7 @@
             ]
           }
         ],
-        "url": "http://www.gstatic.com/generate_204",
+        "url": "https://www.apple.com/library/test/success.html",
         "interval": "10m",
         "tolerance": 50
       },
@@ -246,7 +246,7 @@
             ]
           }
         ],
-        "url": "http://www.gstatic.com/generate_204",
+        "url": "https://www.apple.com/library/test/success.html",
         "interval": "10m",
         "tolerance": 50
       },
@@ -270,7 +270,7 @@
             ]
           }
         ],
-        "url": "http://www.gstatic.com/generate_204",
+        "url": "https://www.apple.com/library/test/success.html",
         "interval": "10m",
         "tolerance": 50
       },
@@ -288,7 +288,7 @@
             ]
           }
         ],
-        "url": "http://www.gstatic.com/generate_204",
+        "url": "https://www.apple.com/library/test/success.html",
         "interval": "10m",
         "tolerance": 50
       },
@@ -306,7 +306,7 @@
             ]
           }
         ],
-        "url": "http://www.gstatic.com/generate_204",
+        "url": "https://www.apple.com/library/test/success.html",
         "interval": "10m",
         "tolerance": 50
       },
