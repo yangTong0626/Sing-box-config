@@ -334,11 +334,11 @@
           "action": "hijack-dns"
         },
         {
-          "clash_mode": "direct",
+          "clash_mode": "Direct",
           "outbound": "🎯 全球直连"
         },
         {
-          "clash_mode": "global",
+          "clash_mode": "Global",
           "outbound": "GLOBAL"
         },
         {
