@@ -338,6 +338,10 @@
           "action": "hijack-dns"
         },
         {
+            "rule_set": "ads",
+            "action": "reject"
+        },
+        {
           "clash_mode": "direct",
           "outbound": "🎯 全球直连"
         },
@@ -399,10 +403,6 @@
                 "45.196.236.212/32"
             ],
             "outbound": "emby"
-        },
-        {
-            "rule_set": "ads",
-            "action": "reject"
         },
         {
           "rule_set": "geosite-geolocation-!cn",
