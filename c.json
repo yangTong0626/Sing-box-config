@@ -505,8 +505,8 @@
         {
             "tag":"ads",
             "type": "remote",
-            "format": "binary",
-            "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Singbox.srs",
+            "format": "source",
+            "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Singbox.json",
             "download_detour": "🚀 节点选择"
         },
         {
