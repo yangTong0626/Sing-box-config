@@ -30,7 +30,7 @@
           "address_strategy": "ipv4_only",
           "strategy": "ipv4_only",
           "detour": "🚀 节点选择"
-        },
+        }
       ],
       "rules": [
         {
