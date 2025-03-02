@@ -198,13 +198,6 @@
         ]
       },
       {
-        "tag": "emby",
-        "type": "selector",
-        "outbounds": [
-          "{all}"
-        ]
-      },
-      {
         "tag": "🇯🇵 日本节点",
         "type": "urltest",
         "outbounds": [
@@ -383,18 +376,6 @@
         {
           "rule_set": "geosite-microsoft",
           "outbound": "🪟 Microsoft"
-        },
-        {
-            "domain": [
-                "emby.aikan.la",
-                "emby.aikan.cloud",
-                "aikan.la",
-                "aikan.cloud"
-            ],
-            "ip_cidr": [
-                "45.196.236.212/32"
-            ],
-            "outbound": "emby"
         },
         {
           "rule_set": "geosite-geolocation-!cn",
